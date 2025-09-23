@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia - 全端網頁開發者</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">我的作品集</div>
+            <ul>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#projects">專案</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+            <button id="theme-toggle">切換模式</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>你好，我是Chia</h1>
+                <p>一位熱愛打造精美、高效能網頁的全端開發者。</p>
+                <a href="#projects" class="cta-button">查看我的專案</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>關於我</h2>
+            <p>我擁有超過五年的網頁開發經驗，專長於 JavaScript 生態系，包括 React、Node.js 與 Vue.js。我致力於撰寫乾淨、可維護的程式碼，並對使用者體驗有著極高的要求。</p>
+        </section>
+
+        <section id="projects">
+            <h2>精選專案</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>專案一：電商平台</h3>
+                    <p>一個使用 MERN (MongoDB, Express, React, Node.js) 技術棧打造的全功能購物網站。</p>
+                    <a href="#" target="_blank">查看詳情</a>
+                </div>
+                <div class="project-card">
+                    <h3>專案二：互動式數據儀表板</h3>
+                    <p>使用 D3.js 和 React 實現的數據視覺化儀表板，提供即時的數據分析與互動圖表。</p>
+                    <a href="#" target="_blank">查看詳情</a>
+                </div>
+                <div class="project-card">
+                    <h3>專案三：個人部落格</h3>
+                    <p>基於 Next.js 框架的靜態生成網站 (SSG)，具備優異的 SEO 表現與載入速度。</p>
+                    <a href="#" target="_blank">查看詳情</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>聯絡方式</h2>
+            <p>期待與您合作！您可以透過以下方式找到我：</p>
+            <div class="contact-links">
+                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i> t114310203@ntut.org.tw</a>
+                <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Chia. 保留一切權利。</p>
+            <div class="social-links">
+                <a href="https://github.com/your-username" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
